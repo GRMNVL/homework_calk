@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+}
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+.container-calc{
+    margin: 50px auto;
+    width: 450px;
+    display: flex;
+    justify-items: center;
+	flex-wrap: wrap;
+    align-items: center;
+	padding: 20px;
+	background: linear-gradient(#7c7978, #f5f1f0);
+	border-radius: 3px;
+	box-shadow: 6px 6px #272727, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.inp{
+   /*  width: 100%; */
+    /* height: 70px; */
+    padding: 5px;   
+    margin-bottom: 10px;
+   	background: rgb(193, 219, 184);/* цвет окна */
+	border-radius: 25px;
+    box-shadow: inset 0px 5px rgba(0, 0, 0, 0.2); /* тень для глубины окна */
+    justify-items: center;
+    align-items: center;
+
+}
+
+
+.cif{
+    		/* цифры в окне */
+    width: 100%;
+    height: 70px;
+	font-size: 3rem;
+	color: rgba(32, 31, 31, 0.5);
+	letter-spacing: 1px;
+    border-radius: 25px;
+    text-align: right; /* хочу ответ справа */
+    padding: 15px;
+}
+
+.btn{
+    text-align: center;
+    width: 88px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 2px 2px 2px 10px;
+    background-color: #adabab;
+    border: 5px solid #808080;
+    cursor: pointer; /* указатель в виде лапки */
+    user-select:none; /* не дает выделить текст на кнопках */
+}
+
+.btn:hover {
+    /* background: rgba(252, 250, 250, 0.1) */
+    filter:brightness(130%);
+}
+
+.btn:active {
+    filter:brightness(80%);
+}
+
+.btn_2{
+    text-align: center;
+    width: 80px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 25px;
+    padding: 12px;
+    margin: 2px 2px 2px 20px;
+    background-color: #fff;
+    border: 5px solid #808080;
+}
+
+.del_{
+    text-align: center;
+    width: 90px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    border: 5px solid gray;
+    background-color: #da1717;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 2px;
+}
+.memus_{  /* M- */
+    text-align: center;
+    width: 90px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    border: 5px solid gray;
+    background-color: #eb8a0b;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 2px 2px 2px 12px;
+}
+.mempl{/* M+ */
+    text-align: center;
+    width: 90px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    border: 5px solid gray;
+    background-color: #eb8a0b;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 2px 2px 2px 12px;
+}
+.arow{
+    text-align: center;
+    width: 83px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 2px 2px  2px 20px;
+    border: 5px solid #808080;
+    background-color: #f75151;
+    
+}
+
+/* .btn_0{
+    text-align: center;
+    width: 180px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 2px;
+    background-color: #adabab;
+    border: 5px solid #808080;
+} */
+.btn_r{
+    text-align: center;
+    width: 86px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    border: 5px solid #808080;
+    background-color: #3e8b12;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 2px 2px 2px 12px;
+}
